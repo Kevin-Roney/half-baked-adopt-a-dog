@@ -35,7 +35,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: rgb(0, 247, 255);
     height: 100%;
     max-width: 80%;
     display: flex;
@@ -103,6 +103,13 @@ p {
     border: solid 1px black;
     width: 200px;
     height: 200px;
+    background-color: rgb(192, 163, 0);
+}
+.dog-card:hover {
+    background-color: yellow;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    transform: scale(1.2);
 }
 
 .dog-card img {
